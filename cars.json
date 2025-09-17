@@ -1,0 +1,29 @@
+[
+{
+"id": "ferrari-f8",
+"name": "F8 Tributo",
+"brand": "Ferrari",
+"year": 2020,
+"image": "https://images.unsplash.com/photo-1542367597-2f2d7b9f5b1b?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=1",
+"description": "Supercarro com motor V8 central-traseiro.",
+"specs": {"Motor":"V8 3.9L","Potência":"710 cv","0-100":"2.9s"}
+},
+{
+"id": "porsche-911",
+"name": "Porsche 911",
+"brand": "Porsche",
+"year": 2021,
+"image": "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=2",
+"description": "Clássico esportivo com ótima dirigibilidade.",
+"specs": {"Motor":"6 cilindros","Potência":"450 cv","0-100":"3.5s"}
+},
+{
+"id": "ford-mustang",
+"name": "Ford Mustang",
+"brand": "Ford",
+"year": 2019,
+"image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&s=3",
+"description": "Muscle car americano icônico.",
+"specs": {"Motor":"V8","Potência":"460 cv","0-100":"4.3s"}
+}
+]

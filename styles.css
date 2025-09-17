@@ -1,0 +1,34 @@
+:root{
+--bg:#0f1724;
+--card:#0b1220;
+--accent:#ff6b6b;
+--glass: rgba(255,255,255,0.06);
+}
+*{box-sizing:border-box}
+body{
+margin:0; font-family:Inter, system-ui, Arial; background:linear-gradient(180deg,#071122 0%, #08101a 100%); color:#e6eef8; min-height:100vh;
+}
+header{padding:20px 24px; display:flex; align-items:center; gap:16px}
+header h1{margin:0; font-size:1.6rem}
+header p{margin:0; opacity:0.8}
+.grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:18px; padding:20px}
+.car-tile{
+height:160px; border-radius:12px; background-size:cover; background-position:center; position:relative; overflow:hidden; cursor:pointer; display:flex; align-items:end; text-decoration:none; color:white; box-shadow:0 8px 24px rgba(2,6,23,0.6);
+}
+.car-tile::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,0.65) 100%)}
+.car-label{position:relative; padding:12px 14px; z-index:2; width:100%}
+.car-label h3{margin:0; font-size:1.05rem}
+.car-label small{opacity:0.85}
+.car-tile:focus{outline:3px solid rgba(255,107,107,0.25)}
+
+
+/* detalhe */
+.car-main{padding:20px}
+.car-hero{height:320px; border-radius:12px; background-size:cover; background-position:center; box-shadow:0 10px 40px rgba(2,6,23,0.6); margin-bottom:18px}
+.specs{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:12px}
+.spec{background:var(--glass); padding:12px; border-radius:8px}
+#back{background:transparent; border:1px solid rgba(255,255,255,0.06); padding:8px 12px; border-radius:8px; color:inherit; cursor:pointer}
+#back:hover{background:rgba(255,255,255,0.02)}
+
+
+@media (max-width:520px){.car-hero{height:200px}}
